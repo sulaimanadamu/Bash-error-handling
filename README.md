@@ -12,3 +12,18 @@ questions like. this is a calculator what if the user enters a string what shoul
 category. this conditionals can really come in handy if properly used ofcourse.
 
 Don't forget to provide users with a descriptive message if their input is what is generating the error.
+
+## Exit code 
+ 
+ exit code hold the status code of the last program executed the code range from (0-255).
+ exit code tells if a program execution is successful or failed. 
+ with 0 = successful
+ and (1-255) = error.
+
+ lets try copying a file that doesn't exist and see how exit code can help.
+
+![code to handle the posible error](./images/exit-sh.png)
+ 
+The result of code is 
+
+![result of code](./images/exit-result.png)
